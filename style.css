@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;500;600;700&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+* {
+  margin: 0rem;
+  padding: 0rem;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+html {
+  font-size: 1rem;
+}
+
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.nav {
+  width: 20%;
+  padding: 0.1rem;
+
+}
+
+.main {
+  position: relative;
+  width: 55%;
+  height: 0rem;
+}
+
+.sidebar {
+  width: 20%;
+}
+
+.banner {
+  position: relative;
+  background-image: url(https://codetheweb.blog/assets/img/posts/css-advanced-background-images/cover.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #4aa0ed;
+  width: 100%;
+  height: 200px;
+}
+
+.profile {
+  height: 8rem;
+  width: 8rem;
+  background-color: #ccc;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -64px;
+  left: 1.5rem;
+}
+
+.profile img {
+  border-radius: 50%;
+  height: 8rem;
+  width: 8rem;
+  border: 2px solid white;
+}
+
+p.name {
+  font-size: 2rem;
+  font-weight: bolder;
+  text-transform: capitalize;
+}
+
+P.uname {
+  font-size: 01em;
+
+
+}
+
+.bio {
+  padding: 10px;
+}
+
+a.btn {
+  float: right;
+  padding: 5px 30px;
+  text-transform: capitalize;
+  border: 1px solid;
+  font-size: 1.5rem;
+  font-weight: 800;
+  text-decoration: none;
+  border-radius: 1rem;
+  background-color: transparent;
+
+
+}
+
+
+body {
+  margin: 0
+}
+
+ul {
+  list-style-type: none;
+}
+
+.nav-items a {
+  display: flex;
+  align-items: center;
+  color: black;
+  font-size: 1.5rem;
+  text-decoration: none;
+  font-weight: 900;
+  padding: 15px 20px;
+  margin: 15px 0;
+  border-radius: 25px;
+}
+
+.nav-items a:hover {
+  background-color: #E7E7E8;
+  transition: 0.3s all ease;
+}
+
+.nav-items a i {
+  margin-right: 15px;
+  font-size: 20px;
+  width: 25px;
+  text-align: center;
+}
+
+.nav-items i.fa-ellipsis {
+  border: 1px solid #000;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-items i.fa-bell {
+  position: relative;
+}
+
+.badge {
+  background-color: #4aa0ed;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 30px;
+  font-size: 10px;
+  font-style: normal;
+  width: 30px;
+  height: 15px;
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.logo {
+  height: 5rem;
+  text-align: left;
+  padding: 0.rem;
+
+}
+
+.logo img {
+  height: 3rem;
+  padding-left: 10px;
+}
+
+.content {
+  height: 100%;
+}
+
+.space {
+  margin-top: 150px;
+}
+
+.post {
+  min-height: 300px;
+  width: 100%;
+  /* background-color: #4aa0ed; */
+}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  width: 25%;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  /* background-color: transparent; */
+}
+
+/* Create an active/current tablink class */
+.tab button.active {}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+}
+
+.tablinks {
+  position: relative;
+}
+
+.tablinks:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 5px;
+  left: 50%;
+  position: absolute;
+  background: #4aa0ed;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  border-radius: 2px;
+  width: 0;
+}
+
+.tablinks:hover:after,
+.tablinks.active:after {
+  width: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: auto;
+}
+
+.user-name {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.post-user {
+  display: flex;
+  gap: 10px;
+  padding-top: 30px;
+
+}
+
+.pname {
+  font-weight: bold;
+  font-size: medium;
+}
+
+.post-content {
+  padding: 30px;
+}
+
+.post-content .post-img {
+  min-height: 600px;
+  width: 90%;
+  margin: auto;
+  border-radius: 30px;
+  background-image: url('https://pbs.twimg.com/media/Fat4159WAAA09bx?format=jpg&name=small');
+  background-position: center;
+  background-repeat: no-repeat;
+}

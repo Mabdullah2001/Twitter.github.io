@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.2.0/css/all.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon"
+    href="https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-logo-vector-png-clipart-1.png"
+    type="image/x-icon">
+  <title>Twitter</title>
+</head>
+
+<body>
+
+
+  <div class="container">
+    <!-- navbar start -->
+
+    <div class="nav-items">
+
+      <div class="logo"><img src="./images/Image.png" alt=""></div>
+      <nav>
+        <div id="nav">
+          <ul>
+            <li><a href="#"><i class="fa-regular fa-house"></i>Home</a></li>
+            <li><a href="#"><i class="fa-regular fa-hashtag"></i>Explore</a></li>
+            <li><a href="#"><i class="fa-regular fa-bell"><span class="badge">12</span></i>Notification</a></li>
+            <li><a href="#"><i class="fa-regular fa-envelope"></i>Messages</a></li>
+            <li><a href="#"><i class="fa-regular fa-user"></i>Profile</a></li>
+            <li><a href="#"><i class="fa-regular fa-ellipsis"></i>More</a></li>
+          </ul>
+        </div>
+      </nav>
+
+    </div>
+    <!-- navbar-end -->
+    <!-- main-start -->
+    <div class="main">
+      <div class="banner">
+        <div class="profile">
+          <div class="profile-img">
+          </div><img src="./profile.png">
+          <div class="user">
+            <p class="name">abdullah</p>
+            <p class="uname">oyee_abdullaah</p>
+          </div>
+        </div>
+
+      </div>
+      <div class="bio">
+
+        <a href="#" class="btn">follow</a>
+      </div>
+
+      <div class="content">
+        <div class="space"></div>
+        <!-- Tab links -->
+        <div class="tab">
+          <button class="tablinks active" onclick="openCity(event, 'Tweets')">Tweets</button>
+          <button class="tablinks" onclick="openCity(event, 'Tweets&replies')">Tweets & replies</button>
+          <button class="tablinks" onclick="openCity(event, 'Media')">Media</button>
+          <button class="tablinks" onclick="openCity(event, 'Likes')">Likes</button>
+        </div>
+
+
+
+        <!-- Tab content -->
+        <div id="Tweets" class="tabcontent post" style="display: block">
+          <div class="post-user">
+            <div class="profle">
+              <img src="./profile.png" width="45" height="45">
+            </div>
+            <div class="user-name">
+              <div class="pname">Abdullah </div>
+              <div class="puser">@oyee_abdullaah</div>
+              <div class="pdate">Aug 21</div>
+            </div>
+          </div>
+          <div class="post-content">
+            <div class="post-img">
+              <!-- <img src="https://pbs.twimg.com/media/Fat4159WAAA09bx?format=jpg&name=small" alt=""> -->
+            </div>
+            <div class="post-likes"></div>
+          </div>
+        </div>
+
+        <div id="Tweets&replies" class="tabcontent post">
+          <h3>Paris</h3>
+          <p>Paris is the capital of France.</p>
+        </div>
+
+        <div id="Media" class="tabcontent post">
+          <h3>Media</h3>
+          <p>Media is the capital of Japan.</p>
+        </div>
+
+        <div id="Likes" class="tabcontent post">
+          <h3>Media</h3>
+          <p>Media is the capital of Japan.</p>
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <!-- main-end -->
+    <!-- sidebar-start -->
+    <div class="sidebar">
+      <div class="search">
+        <input type="text" placeholder="search..">
+      </div>
+    </div>
+    <!-- siddebar-end -->
+
+
+  </div>
+
+
+</body>
+<script src="main.js"></script>
+
+</html>
