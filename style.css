@@ -9,6 +9,8 @@
 
 html {
   font-size: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 
@@ -39,7 +41,7 @@ html {
   background-image: url(https://codetheweb.blog/assets/img/posts/css-advanced-background-images/cover.jpg);
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   background-color: #4aa0ed;
   width: 100%;
   height: 200px;
@@ -63,15 +65,15 @@ html {
 }
 
 p.name {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: bolder;
   text-transform: capitalize;
+  color: #0f1419;
 }
 
 P.uname {
-  font-size: 01em;
-
-
+  font-size: 0.8em;
+  color: #536471
 }
 
 .bio {
@@ -80,14 +82,15 @@ P.uname {
 
 a.btn {
   float: right;
-  padding: 5px 30px;
+  padding: 10px 30px;
   text-transform: capitalize;
   border: 1px solid;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 800;
   text-decoration: none;
-  border-radius: 1rem;
-  background-color: transparent;
+  border-radius: 1.5rem;
+  background-color: black;
+  color: white;
 
 
 }
@@ -107,7 +110,6 @@ ul {
   color: black;
   font-size: 1.5rem;
   text-decoration: none;
-  font-weight: 900;
   padding: 15px 20px;
   margin: 15px 0;
   border-radius: 25px;
@@ -200,6 +202,7 @@ ul {
   width: 25%;
   font-size: 16px;
   font-weight: 600;
+  color: #0f1419;
 }
 
 /* Change background color of buttons on hover */
@@ -272,4 +275,46 @@ ul {
   background-image: url('https://pbs.twimg.com/media/Fat4159WAAA09bx?format=jpg&name=small');
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.up {
+  width: 100px
+}
+
+/* side bar start  */
+.trend {
+  background-color: #f7f9f9;
+  min-height: 500px;
+  margin: 1rem 0rem;
+  border-radius: 10px;
+  padding: 12px 16px;
+}
+
+.title {
+  font-size: 1rem;
+  font-weight: bolder;
+  text-transform: capitalize;
+  color: #0f1419;
+  margin-bottom: 10PX;
+}
+
+li.titems {
+  display: flex;
+  justify-content: space-between;
+}
+
+li a {
+  text-decoration: none;
+}
+
+span.tcoutry,
+span.tcount {
+  font-size: 12px;
+  color: #536471;
+}
+
+p.trending {
+  font-size: 16px;
+  font-weight: 700;
+  color: #0f1419;
 }
