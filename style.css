@@ -21,15 +21,19 @@ html {
 }
 
 .nav {
-  width: 20%;
+  /* width: 20%; */
   padding: 0.1rem;
+  width: 20%;
 
 }
+
+.navbar {}
 
 .main {
   position: relative;
   width: 55%;
   height: 0rem;
+  margin-left: 10rem;
 }
 
 .sidebar {
@@ -113,6 +117,7 @@ ul {
   padding: 15px 20px;
   margin: 15px 0;
   border-radius: 25px;
+  padding: 1rem;
 }
 
 .nav-items a:hover {
@@ -297,6 +302,7 @@ ul {
   font-weight: bolder;
   text-transform: capitalize;
   color: #0f1419;
+  padding: 1rem;
   margin-bottom: 10PX;
 }
 
@@ -322,6 +328,42 @@ p.trending {
   font-weight: 700;
   color: #0f1419;
 }
-.post-likes fa-heart{
+
+.post-likes fa-heart {
   height: 2rem;
+}
+
+.fa-light {
+  font-weight: 300;
+  font-size: x-large;
+
+}
+
+.likes {
+  display: flex;
+  padding: 1rem;
+  align-items: center;
+}
+
+.post-retweet {
+  margin-left: 8rem;
+
+  font-size: x-large;
+
+
+}
+
+.post-like {
+  margin-left: 8rem;
+  font-weight: 300;
+  font-size: x-large;
+
+
+}
+
+.post-share {
+  margin-left: 7rem;
+  font-weight: 300;
+  font-size: x-large;
+
 }
