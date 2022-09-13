@@ -269,7 +269,8 @@ ul {
 }
 
 .post-content {
-  padding: 30px;
+  margin: 50px;
+  margin-top: 1rem;
 }
 
 .post-content .post-img {
@@ -343,15 +344,49 @@ p.trending {
   display: flex;
   padding: 1rem;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   width: 90%;
 }
 
+.likes div {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.likes div i {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+
+.likes div:hover i {
+  background-color: #e1eef6;
+  color: #0ebd83;
+}
+
+.likes div:hover span {
+  color: #0ebd83;
+}
+
+.likes .post-like:hover i {
+  background-color: #F7e0eB !important;
+  color: #f92486;
+}
+
+.likes .post-like:hover span {
+  color: #f92486;
+}
+
+
 .post-retweet {
   margin-left: 8rem;
-
-  font-size: x-large;
-
+  font-size: 1.3rem;
 
 }
 
@@ -359,8 +394,6 @@ p.trending {
   margin-left: 8rem;
   font-weight: 300;
   font-size: x-large;
-
-
 }
 
 .post-share {
@@ -368,4 +401,9 @@ p.trending {
   font-weight: 300;
   font-size: x-large;
 
+}
+
+.likes span {
+  font-size: 1rem;
+  padding: 12px;
 }
