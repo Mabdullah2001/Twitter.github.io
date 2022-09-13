@@ -343,6 +343,8 @@ p.trending {
   display: flex;
   padding: 1rem;
   align-items: center;
+  justify-content: space-between;
+  width: 90%;
 }
 
 .post-retweet {
