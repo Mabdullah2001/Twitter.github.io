@@ -425,8 +425,8 @@ p.trending {
   }
 
   .main {
-    width: 100%;
-    margin: auto;
+    margin: 0;
+    width: 100% !important;
   }
 
   .banner {
@@ -488,7 +488,6 @@ p.trending {
   .main {
     height: 100vh;
     width: 90%;
-    margin: 0;
   }
 
   /* .navbar, */
@@ -548,8 +547,4 @@ p.trending {
 
   }
 
-}
-
-.nav-items {
-  position: relative;
 }
