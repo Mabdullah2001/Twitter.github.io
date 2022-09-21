@@ -336,12 +336,15 @@ p.trending {
   align-items: center;
   justify-content: center;
   /* width: 90%; */
+  gap: 1rem;
 }
 
 .likes div {
   cursor: pointer;
   display: flex;
   align-items: center;
+  width: 25%;
+
 }
 
 .likes div i {
@@ -433,25 +436,24 @@ p.trending {
   }
 
   .likes {
-    /* justify-content: space-between; */
-    /* align-items: center; */
+    font-size: 1rem;
+    width: 100%;
   }
+
 
   .post-content .post-img {
     height: 10rem;
   }
 
   .post-retweet {
-
-    font-size: 1.3rem;
+    font-size: 1rem;
     margin: 0;
-
+    padding: 0;
   }
 
   .post-like {
     margin: 0;
     font-weight: 300;
-    font-size: x-large;
   }
 
   .post-share {
@@ -462,7 +464,6 @@ p.trending {
   }
 
   .likes span {
-    font-size: 1rem;
     padding: 12px;
   }
 
