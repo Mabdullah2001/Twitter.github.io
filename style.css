@@ -38,7 +38,9 @@ html {
 
 .sidebar {
   width: 20%;
+  position: relative;
 }
+
 
 .banner {
   position: relative;
@@ -164,27 +166,6 @@ ul {
   transform: translateX(-50%);
 }
 
-.logo {
-  height: 5rem;
-  text-align: left;
-  padding: 0.rem;
-  margin: auto;
-
-
-}
-
-.logo img {
-  height: 3rem;
-  padding-left: 10px;
-  height: 50%;
-  width: 50%;
-
-}
-
-.content {
-  height: 100%;
-}
-
 .space {
   margin-top: 150px;
 }
@@ -192,7 +173,6 @@ ul {
 .post {
   min-height: 300px;
   width: 100%;
-  /* background-color: #4aa0ed; */
 }
 
 /* Style the tab */
@@ -416,6 +396,12 @@ p.trending {
 .likes span {
   font-size: 1rem;
   padding: 12px;
+}
+
+.logo i {
+  font-size: 2.5rem;
+  color: #4aa0ed;
+  padding: 1REM;
 }
 
 
