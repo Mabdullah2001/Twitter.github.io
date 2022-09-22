@@ -19,9 +19,10 @@
   <div class="container">
     <!-- navbar start -->
 
-    <div class="navbar">
+    <div id="mySidebar" class="navbar">
       <div class="nav-items" style="position: fixed;">
 
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">close ×</a>
         <div class="logo">
           <i class="fa-brands fa-twitter"></i>
         </div>
@@ -44,7 +45,7 @@
 
     <!-- navbar-end -->
     <!-- main-start -->
-    <div class="main">
+    <div id="main" class="main">
       <div class="banner">
         <div class="profile">
           <div class="profile-img">
@@ -96,6 +97,25 @@
                 <div class="post-share"><i class="fa-light fa-arrow-up-from-bracket"></i></div>
               </div>
             </div>
+            <aside class="Sidebar">
+              <nav>
+                <a href="#" class="logo">Logo</a>
+                <div class="nav_items">
+                  <a href="#" class="active">Home</a>
+                  <a href="#">About us</a>
+                  <a href="#">Services</a>
+                  <a href="#">Contact us</a>
+                </div>
+              </nav>
+            </aside>
+            <main class="right">
+              <label for="MenuToggle" class="toggle__icon openbtn" onclick="openNav()">
+                <span class="line line1"></span>
+                <span class="line line3"></span>
+                <span class="line line2"></span>
+              </label>
+            </main>
+
 
           </div>
         </div>
@@ -151,7 +171,7 @@
 
   </div>
 
-
+  <script src="./main.js"></script>
 </body>
 
 </html>
