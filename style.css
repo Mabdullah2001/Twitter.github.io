@@ -138,6 +138,10 @@ ul {
   align-items: center;
 }
 
+.closebtn {
+  visibility: hidden;
+}
+
 .nav-items i.fa-bell {
   position: relative;
 }
@@ -393,6 +397,10 @@ p.trending {
   padding: 1rem;
 }
 
+/* #nav {
+  display: block !important;
+} */
+
 @media only screen and (max-width: 480px) {
   html {
     margin: 0;
@@ -479,6 +487,10 @@ p.trending {
     display: none;
   }
 
+  .closebtn {
+    visibility: visible;
+  }
+
   .post-retweet {
     font-size: 1.3rem;
     margin: 0;
@@ -505,9 +517,7 @@ p.trending {
     height: 100vh;
   }
 
-  /* #nav span {
-    display: none;
-  } */
+
 
   span.badge {
     display: block !important;
@@ -518,15 +528,21 @@ p.trending {
     top: 24px;
     left: 30px;
     cursor: pointer;
+    color: #ffff;
   }
 
   .toggle__icon .line {
     width: 24px;
     height: 3px;
-    background-color: #000831;
+    background-color: #ffff;
+
     margin: 6px 0;
     display: block;
     border-radius: 8px;
+  }
+
+  i.toggle__icon {
+    font-size: 2rem !important;
   }
 
   #MenuToggle:checked~.sidebar {
@@ -538,4 +554,5 @@ p.trending {
     width: 100%;
   }
 
+  .nav-items {}
 }
