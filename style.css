@@ -237,9 +237,14 @@ ul {
   margin: auto;
 }
 
+.user {
+  text-align: center;
+}
+
 .user-name {
   display: flex;
   align-items: center;
+  align-content: center;
   gap: 5px;
 }
 
@@ -252,6 +257,7 @@ ul {
 .pname {
   font-weight: bold;
   font-size: medium;
+  align-items: center;
 }
 
 .post-content {
@@ -338,7 +344,7 @@ p.trending {
   cursor: pointer;
   display: flex;
   align-items: center;
-  width: 25%;
+  /* width: 25%; */
 }
 
 .likes div i {
@@ -396,6 +402,11 @@ p.trending {
   color: #4aa0ed;
   padding: 1rem;
 }
+
+user {
+  margin-left: .5rem;
+}
+
 
 /* #nav {
   display: block !important;
@@ -555,4 +566,9 @@ p.trending {
   }
 
   .nav-items {}
+}
+
+.nav {
+  display: none;
+
 }
