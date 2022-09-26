@@ -31,7 +31,7 @@ html {
   position: relative;
   width: 55%;
   height: 0rem;
-  margin-left: 10rem;
+  margin-left: 14rem;
 }
 
 .sidebar {
@@ -406,6 +406,7 @@ p.trending {
 user {
   margin-left: .5rem;
 }
+
 .likes i {
   margin: 0;
   padding: 0%;
@@ -472,7 +473,8 @@ user {
   .likes span {
     padding: 12px;
   }
-  .toggle__icon{
+
+  .toggle__icon {
     visibility: hidden;
   }
 
@@ -534,6 +536,7 @@ user {
 
   .main {
     height: 100vh;
+    width: inherit;
   }
 
 
